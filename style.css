@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    word-spacing: 32px;
+
+}
+
+a:hover {
+    color: #4CB538;
+    cursor: pointer;
+}
+
+a:active {
+    opacity: 0.6;
+}
+
+.button-header {
+    background: #6FBF44;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-header:active {
+    opacity: 0.6;
+}
+
+.image-banner {
+    width: 595.18px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 177px;
+    margin-left: 121px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    width: 582px;
+    height: 164px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    height: 99px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.button-section {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    background: transparent;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+.button-section:active {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 700px) {
+    
+    a {
+        display: none;
+    }
+
+    .button-header {
+        margin: 0 30 0 0;
+        bottom: 0%;
+        float: right;
+        width: 91px;
+        height: 31px;
+        radius: 6px;
+        font-size: 12px;
+        line-height: 18px;
+        position: relative;
+        right: 19px;
+    }
+
+    .image-banner {
+        width: 90%;
+        height: auto;
+        margin-top: 0px;
+
+    }
+
+    h1 {
+        width: 280px;
+        height: 60px;
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        margin-top: 29px;
+        margin-bottom: 26px;
+        position: relative;
+        top: 29px;
+        bottom: 26px;
+    }
+
+    .button-section {
+        width: 112px;
+        height: 27px;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        text-align: center;
+
+    }
+
+}
